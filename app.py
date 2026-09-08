@@ -26,11 +26,11 @@ from groq import Groq
 APP_TITLE = "🧠 AI Study Pack Generator"
 MAX_SECTIONS = 6
 MIN_SECTIONS = 2
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-20b"
 AVAILABLE_MODELS = [
-    "llama-3.3-70b-versatile",
-    "llama-3.1-8b-instant",
-    "gemma2-9b-it",
+    "openai/gpt-oss-120b",
+    "whisper-large-v3",
+    "whisper-large-v3-turbo",
 ]
 STAGE_ORDER = ["planning", "content", "assessment", "review", "refinement"]
 CRITICAL_STAGES = {"planning", "content"}  # failure here aborts the run
