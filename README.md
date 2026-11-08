@@ -1,5 +1,5 @@
 # 🧠 AI Study Pack Generator
-
+Generate your study pack for free here:https://ai-study-pack-generator-using-ai-worklfow-thb453qxysnzz547lxw2.streamlit.app/
 A multi-stage AI workflow that turns a topic + learner profile into a
 personalized study pack (explanations, examples, quizzes, flashcards),
 built with an open-source **Groq** LLM and deployed on **Streamlit
